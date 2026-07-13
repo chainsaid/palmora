@@ -1,0 +1,30 @@
+# PlatformIO / Arduino 构建产物
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# 项目本地误落的 PlatformIO 工具链缓存（应位于 ~/.platformio）
+.platformio/
+
+# 字模生成中间 PNG（可由 tools/render_glyphs.py 重生成）
+tools/out/
+
+# 编辑器与操作系统
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Claude Code / Agent 会话残留
+.claude/
+.agents/
+.tmp/
+
+# Python 缓存（tools/ 里的字模脚本）
+__pycache__/
+*.pyc
+
+# 参考图目录（第三方来源、仅本地对照用，整个目录不入仓库）
+refs/

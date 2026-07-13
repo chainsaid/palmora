@@ -1,0 +1,2 @@
+# Placeholder — keeps this directory tracked in git for PlatformIO's expected `lib/` layout.
+# Third-party libraries are pulled via `lib_deps` in ../platformio.ini instead of vendored here.
